@@ -1,7 +1,16 @@
 .counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
   text-align: center;
-  margin: 20px auto;
-  padding-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 button {
