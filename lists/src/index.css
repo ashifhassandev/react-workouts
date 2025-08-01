@@ -22,6 +22,10 @@ body {
   min-width: 220px;
 }
 
+.list ul li {
+  font-size: 18px;
+}
+
 input {
   padding: 10px;
   margin-right: 10px;
