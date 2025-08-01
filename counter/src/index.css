@@ -1,3 +1,12 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url("/sunny.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
 .counter {
   display: flex;
   flex-direction: column;
@@ -11,6 +20,10 @@
   padding: 20px;
   border-radius: 10px;
   border: 2px solid #0d6efd;
+}
+
+.box h2 {
+  font-size: 40px;
 }
 
 .buttons {
