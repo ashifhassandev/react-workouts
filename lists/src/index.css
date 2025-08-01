@@ -1,3 +1,12 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url("/cloudy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
 .list-box {
   display: flex;
   flex-direction: column;
@@ -21,8 +30,9 @@ input {
 }
 
 input:focus {
-  border-color: red;
   outline: none;
+  border-color: #6f42c1;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
 }
 
 button {
@@ -33,5 +43,6 @@ button {
 
 button:hover {
   cursor: pointer;
-  border-color: red;
+  border-color: #6f42c1;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
 }
