@@ -5,9 +5,7 @@ const App = () => {
   const [value, setValue] = useState("");
 
   const addItem = () => {
-    if (value.trim() === "") {
-      return;
-    }
+    if (value.trim() === "") return;
 
     setList((previousList) => [...previousList, value]);
     setValue("");
