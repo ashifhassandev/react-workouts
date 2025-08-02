@@ -1,9 +1,7 @@
 import ColorPicker from "./ColorPicker";
 
 const App = () => {
-  return (
-    <ColorPicker />
-  );
+  return <ColorPicker />;
 };
 
 export default App;
