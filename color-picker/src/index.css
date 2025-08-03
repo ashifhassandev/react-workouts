@@ -6,7 +6,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 90vh;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .main {
@@ -62,6 +63,8 @@ h1, label {
     indigo,
     violet
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
